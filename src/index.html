@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Hola Amanda</title>
+    <title>Caesar Cipher</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
@@ -10,18 +10,18 @@
     <img class="logo" src="images/Camaleon.png">
     </div>
 
-    <div id="screenWelcome">
+    <div id="screenWelcome" class="boxes">
       <div>
         <p>Ingresa tu código secreto aquí</p>
         <input id="claveAcceso" type="password" value="Texto"/>
       </div>
         
       <div>
-        <button id="ingresar"class="button">INGRESAR</button>
+        <button id="ingresar" class="button" >INGRESAR</button>
       </div>
     </div> 
     
-    <div id="screenCipher" style="display: none;">
+    <div id="screenCipher" class="boxes" style="display: none;">
       <div id="textBox" >
         <p></p>
         <input id="text-cipher" type="text" class="textC" value="Escribe tu texto aquí"/>
@@ -41,11 +41,11 @@
       </div>
 
       <div id="button-off" class="button-off">
-        <button id="btnCipher"class="button">CIFRAR</button>
-        <button id="btnDecipher"class="button">DESCIFRAR</button>
+        <button id="btnCipher" class="button">CIFRAR</button>
+        <button id="btnDecipher" class="button">DESCIFRAR</button>
       </div>
         
-      <div id="buttons"class="button-off">
+      <div id="buttons" class="button-off">
         <button id="btn-delete-text" class="button">Borrar Texto</button>
         <button id="btn-send-text" class="button">Enviar</button>
       </div>
