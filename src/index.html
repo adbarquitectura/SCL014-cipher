@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
   </head>
   <body>
     <div>
@@ -13,11 +14,11 @@
     <div id="screenWelcome" class="boxes">
       <div>
         <p>Ingresa tu código secreto aquí</p>
-        <input id="claveAcceso" type="password" value="Texto"/>
+        <input id="claveAcceso" type="password" value="Texto" class="password"/>
       </div>
         
       <div>
-        <button id="ingresar" class="button" >INGRESAR</button>
+        <button id="ingresar" class="button" >Ingresar</button>
       </div>
     </div> 
     
@@ -40,12 +41,12 @@
         <p id="text-return-deCipher"></p>
       </div>
 
-      <div id="button-off" class="button-off">
+      <div id="button-off">
         <button id="btnCipher" class="button">CIFRAR</button>
         <button id="btnDecipher" class="button">DESCIFRAR</button>
       </div>
         
-      <div id="buttons" class="button-off">
+      <div id="buttons">
         <button id="btn-delete-text" class="button">Borrar Texto</button>
         <button id="btn-send-text" class="button">Enviar</button>
       </div>
@@ -53,8 +54,8 @@
     </div>
 
     <div>
-      <h1 class= "nombre" id="titulo">Camaleón</h1>
-      <p>Herramienta de mensajería interna <br>del movimiento social.<br>Chile 2019-2020</p>
+      <h1 id="titulo">Camaleón</h1>
+      <p id="tituloDos">Herramienta de mensajería interna <br> del movimiento social. Chile 2019-2020</p>
     </div>
 
     <script src="index.js" type="module"></script>

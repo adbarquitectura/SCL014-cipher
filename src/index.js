@@ -1,5 +1,5 @@
 import cipher from './cipher.js';
-
+ 
 
 let textModific = document.getElementById("text-cipher");
 //console.log(textModific);
@@ -33,17 +33,13 @@ initialSec();
 
 function printCipher (){
     let cipherImpre = cipher.encode(textModific.value , parseInt(offsetText.value));
-    //console.log(cipherImpre);
     textModific.value = cipherImpre;
-    //let screenPrintOne = document.getElementById("offsetBox-cipher").style="display: block;";
-    //let ver = document.getElementById("text-return-cipher").innerHTML = "Su texto cifrado es " + cipherImpre;
 }
 
 function printDeCipher (){
     let deCipherImpre =cipher.decode(textModific.value , parseInt(offsetText.value));
     textModific.value = deCipherImpre;
-    //let screenPrintOne = document.getElementById("offsetBox-deCipher").style="display: block;";
-    //let ver = document.getElementById("text-return-deCipher").innerHTML = "Su texto descifrado es " + deCipherImpre;
+        
 }
 
 function deleteText (){
