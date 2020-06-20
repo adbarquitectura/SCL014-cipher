@@ -18,7 +18,7 @@ describe('cipher', () => {
       let textCipher = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
       let offset = 33;
 
-      //act
+      //actnpm test
       let resultCipher = cipher.encode(textCipher,offset);
 
       //assert
