@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "src/index.html",
   "license": "MIT",
+  "homepage": "http://adbarquitectura.github.io/SCL014-cipher",
   "scripts": {
     "htmlhint": "htmlhint src/*.html test/*.html",
     "eslint": "eslint --ext .js src/ test/",

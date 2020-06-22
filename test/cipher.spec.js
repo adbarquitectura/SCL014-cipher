@@ -18,15 +18,13 @@ describe('cipher', () => {
       let textCipher = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
       let offset = 33;
 
-      //actnpm test
+      //act
       let resultCipher = cipher.encode(textCipher,offset);
 
       //assert
       expect(resultCipher).toBe("HIJKLMNOPQRSTUVWXYZABCDEFG");
-
     });
-
-    
+        
   });
 
   describe('cipher.decode', () => {

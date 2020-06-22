@@ -38,8 +38,7 @@ function printCipher (){
 
 function printDeCipher (){
     let deCipherImpre =cipher.decode(textModific.value , parseInt(offsetText.value));
-    textModific.value = deCipherImpre;
-        
+    textModific.value = deCipherImpre;        
 }
 
 function deleteText (){
@@ -49,3 +48,17 @@ function deleteText (){
     });
 }
 deleteText();
+
+function copyText (){
+    let buttonCopyText = document.getElementById("copy-text");
+    buttonCopyText.addEventListener("click", copy);
+}
+copyText();
+
+
+function copy (){
+    let copyText = textModific;
+    copyText.select();
+    copyText.setSelectionRange(0, 99999)
+    document.execCommand("copy");
+}

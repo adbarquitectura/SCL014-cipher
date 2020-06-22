@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1592624995372" clover="3.2.0">
-  <project timestamp="1592624995372" name="All files">
+<coverage generated="1592864250829" clover="3.2.0">
+  <project timestamp="1592864250829" name="All files">
     <metrics statements="26" coveredstatements="26" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2" elements="28" coveredelements="28" complexity="0" loc="26" ncloc="26" packages="1" files="1" classes="1"/>
     <file name="cipher.js" path="C:\Users\Mandy\Desktop\nuevo\SCL014-cipher\src\cipher.js">
       <metrics statements="26" coveredstatements="26" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
