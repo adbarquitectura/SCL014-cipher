@@ -115,11 +115,11 @@ Cómo descargar, instalar y ejecutar Camaleón
 
 ![SCL014-cipher_6  producto digital-1](https://user-images.githubusercontent.com/66659886/85299244-09fc7480-b473-11ea-9d67-609c63fefefb.png)
 
-![SCL014-cipher_6  producto digital-2](https://user-images.githubusercontent.com/66659886/85299263-0f59bf00-b473-11ea-8549-0703bb009dd6.png)
+![SCL014-cipher_6  producto digital-2](https://user-images.githubusercontent.com/66659886/85478678-ab2a1e80-b58a-11ea-9603-2db5a9c21211.png)
 
 ***
 
 ## Link de proyecto: 
-`http://192.168.0.6:5000`
+http://adbarquitectura.github.io/SCL014-cipher
 
 ***
