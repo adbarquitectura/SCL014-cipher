@@ -22,7 +22,7 @@ Desarrollar una aplicación web que servirá para que el usuario pueda cifrar y 
 
 ## Fase 2: Síntesis y definición
 
-**Storytelling Usuario A - Primera línea** : 
+**Storytelling Usuario A - Emisor** : 
 
 * Líder piensa convocar a un grupo.
 * Abre Camaleón.
@@ -32,7 +32,7 @@ Desarrollar una aplicación web que servirá para que el usuario pueda cifrar y 
 * Aprieta botón codificar.
 * Copia el texto y envía por redes sociales.
 
-**Storytelling Usuario B - Manifestante** : 
+**Storytelling Usuario B - Receptor** : 
 
 * Grupo recibe mensaje.
 * Busca código QR.
